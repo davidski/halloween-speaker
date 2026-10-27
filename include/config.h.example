@@ -1,0 +1,23 @@
+// Configuration template: copy to config.h and fill in your values
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// Wi-Fi
+#define WIFI_SSID ""
+#define WIFI_PASS ""
+
+// MQTT
+#define MQTT_HOST ""
+#define MQTT_PORT 1883
+#define MQTT_USER ""
+#define MQTT_PASS ""
+
+// Device
+#define DEVICE_ID "halloween_speaker"
+#define COOLDOWN_MS 3000
+
+// OTA firmware upload page (http://<device>/update)
+#define OTA_USER "admin"
+#define OTA_PASS ""
+
+#endif
